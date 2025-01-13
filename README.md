@@ -7,8 +7,11 @@ Requirements: NAMD 2.12 or newer [1, 2] - https://www.ks.uiuc.edu/Development/Do
 # Running a sample of 4 parallel pulls in the GlpF channel
 
 One example of running pulls of water molecules along the GlpF channel is placed in the common directory together with an example of the input configuration file. The output log files will contain additional lines to the typical NAMD log file with the following two lines:
+
 HGP11:
+
 HGP12:
+
 with the specified frequency.
 
 # Analysis - extract works and compute PMF
