@@ -1,6 +1,6 @@
 # hgp-pull
 
-The Harmonic Guiding Potential pulling tool for non-equilibrium Steered Molecular Dynamics pulls of specified selection(s) along specified path(s) (reaction coordinate(s)) in NAMD [1, 2]. This tool computes on-the-fly in parallel the work(s) along (multiple) independent pulling RC(s) required to determine (multiple) Potential of Mean Force(s) (PMF(s)) along the specified (multiple) independent RC(s).
+The Harmonic Guiding Potential pulling tool (hgp-pull.tcl) for non-equilibrium Steered Molecular Dynamics pulls of specified selection(s) along specified path(s) (reaction coordinate(s)) in NAMD [1, 2]. This tool computes on-the-fly in parallel the work(s) along (multiple) independent pulling RC(s) required to determine (multiple) Potential of Mean Force(s) (PMF(s)) along the specified (multiple) independent RC(s) using the TCL scripting option implemented in NAMD.
 
 Requirements: NAMD 2.12 or newer [1, 2] - https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=NAMD
 
@@ -17,8 +17,11 @@ with the specified frequency.
 # Analysis - extract works and compute PMF
 
 Firstly, extract the HGP12 line with the work column.
+
 Secondly, convert the timestep to your distance or angle RC based on the constant velocity pull used in the SMD simulation.
+
 Third, calculate the mean and standard deviations for the work in the forward and reverse pulls from a significant number of pulls [3, 4].
+
 Fourth, obtain the PMF along the specified RC(s) according to the FR method [3, 4].
 
 # References:
