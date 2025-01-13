@@ -4,7 +4,7 @@ The Harmonic Guiding Potential pulling tool for non-equilibrium Steered Molecula
 
 Requirements: NAMD 2.12 or newer [1, 2] - https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=NAMD
 
-# Running a sample of 4 parralel pulls in the GlpF channel
+# Running a sample of 4 parallel pulls in the GlpF channel
 
 One example of running pulls of water molecules along the GlpF channel is placed in the common directory together with an example of the input configuration file. The output log files will contain additional lines to the typical NAMD log file with the following two lines:
 HGP11:
