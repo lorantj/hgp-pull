@@ -2,7 +2,7 @@
 
 The Harmonic Guiding Potential pulling tool for non-equilibrium Steered Molecular Dynamics pulls of specified selection(s) along specified path(s) (reaction coordinate(s)) in NAMD [1, 2]. This tool computes on-the-fly in parallel the work(s) along (multiple) independent pulling RC(s) required to determine (multiple) Potential of Mean Force(s) (PMF(s)) along the specified (multiple) independent RC(s).
 
-Requirements: NAMD 2.12 or newer [1, 2].
+Requirements: NAMD 2.12 or newer [1, 2] - https://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=NAMD
 
 # Running a sample of 4 parralel pulls in the GlpF channel
 
