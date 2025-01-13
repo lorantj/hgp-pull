@@ -14,13 +14,13 @@ HGP12:
 
 with the specified frequency.
 
-# Analysis - extract works and compute PMF
+# Analysis - extract works and compute the PMF
 
 Firstly, extract the HGP12 line with the work column.
 
 Secondly, convert the timestep to your distance or angle RC based on the constant velocity pull used in the SMD simulation.
 
-Third, calculate the mean and standard deviations for the work in the forward and reverse pulls from a significant number of pulls [3, 4].
+Third, calculate the mean and standard deviation profile(s) for the work in the forward and reverse pulls from a significant number of pulls [3, 4].
 
 Fourth, obtain the PMF along the specified RC(s) according to the FR method [3, 4].
 
